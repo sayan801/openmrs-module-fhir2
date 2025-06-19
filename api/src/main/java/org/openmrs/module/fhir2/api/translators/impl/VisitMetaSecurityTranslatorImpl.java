@@ -9,18 +9,22 @@
  */
 package org.openmrs.module.fhir2.api.translators.impl;
 
-import javax.annotation.Nonnull;
-
 import java.util.ArrayList;
 import java.util.List;
 
-import lombok.AccessLevel;
-import lombok.Setter;
+import javax.annotation.Nonnull;
+
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.Meta;
 import org.openmrs.Visit;
+import org.openmrs.VisitAttribute;
+import org.openmrs.VisitAttributeType;
+import org.openmrs.api.context.Context;
 import org.openmrs.module.fhir2.api.translators.VisitMetaSecurityTranslator;
 import org.springframework.stereotype.Component;
+
+import lombok.AccessLevel;
+import lombok.Setter;
 
 @Component
 @Setter(AccessLevel.PACKAGE)
@@ -39,7 +43,7 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 			String attrTypeName = attr.getAttributeType().getName();
 			if ("security".equalsIgnoreCase(attrTypeName)) {
 				Coding coding = new Coding().setSystem("http://example.org/security-tags").setCode(attr.getUuid())
-				        .setDisplay(attrTypeName + ": " + attr.getValueReference());
+				        .setDisplay(attrTypeName + ": " + "Restricted");
 				securityTags.add(coding);
 			}
 		});
@@ -51,16 +55,44 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 	
 	@Override
 	public Visit toOpenmrsType(@Nonnull Visit visit, @Nonnull List<Coding> codings) {
-		// Example: Store security tags in encounter attributes or extensions (customized storage)
-		// OpenMRS doesn't support meta.security natively, so you must store this in an extension or obs
+		if (visit == null || codings == null) {
+			return null;
+		}
 		
 		for (Coding coding : codings) {
-			
-			System.out.printf("Received security tag: system=%s, code=%s, display=%s%n", coding.getSystem(),
-			    coding.getCode(), coding.getDisplay());
+			String display = coding.getDisplay();
+			if (display != null && display.toLowerCase().contains("security")) {
+				// Create a new VisitAttribute
+				VisitAttribute attribute = new VisitAttribute();
+				
+				
+				
+				// all visit attribute types
+				List<VisitAttributeType> attributeTypes = Context.getVisitService().getAllVisitAttributeTypes();
+				
+				// Then filter with security
+				VisitAttributeType attrType = attributeTypes.stream().filter(type -> "security".equals(type.getName()))
+				        .findFirst().orElse(null);
+				attribute.setAttributeType(attrType);
+				
+				// Set UUID from coding.code
+				attribute.setUuid(coding.getCode());
+				
+				// Set value from display (assumes "security: "Restricted"")
+				String[] parts = display.split(":", 2);
+				if (parts.length == 2) {
+					String value = parts[1].trim();
+					attribute.setValueReferenceInternal("Restricted");//value
+				}
+				
+				// Add the attribute to the visit
+				visit.addAttribute(attribute);
+				
+				System.out.printf("Added visit attribute: uuid=%s, display=%s%n", coding.getCode(), display);
+			}
 		}
 		
 		return visit;
-		
 	}
+	
 }
