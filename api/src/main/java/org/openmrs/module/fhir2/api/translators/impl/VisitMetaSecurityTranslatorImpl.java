@@ -7,6 +7,7 @@
  * Copyright (C) OpenMRS Inc. OpenMRS is a registered trademark and the OpenMRS
  * graphic logo is a trademark of OpenMRS Inc.
  */
+
 package org.openmrs.module.fhir2.api.translators.impl;
 
 import java.util.ArrayList;
@@ -55,42 +56,73 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 	
 	@Override
 	public Visit toOpenmrsType(@Nonnull Visit visit, @Nonnull List<Coding> codings) {
-		if (visit == null || codings == null) {
+		if (visit == null || codings == null)
+		 {
 			return null;
 		}
 		
-		for (Coding coding : codings) {
+		for (Coding coding : codings)
+		 {
 			String display = coding.getDisplay();
-			if (display != null && display.toLowerCase().contains("security")) {
-				// Create a new VisitAttribute
-				VisitAttribute attribute = new VisitAttribute();
+			if (display != null && display.toLowerCase().contains("security")) 
+			{
 				
+				// The display value you want to store
+				String displayValue = "Restricted";
+				coding.setDisplay(displayValue);
 				
+				// Store the display value directly as the attribute value
+				String valueToStore = displayValue;
 				
-				// all visit attribute types
-				List<VisitAttributeType> attributeTypes = Context.getVisitService().getAllVisitAttributeTypes();
+				// Find "security" attribute type
+				VisitAttributeType attrType = Context.getVisitService().getAllVisitAttributeTypes().stream()
+				        .filter(type -> "security".equalsIgnoreCase(type.getName())).findFirst().orElse(null);
 				
-				// Then filter with security
-				VisitAttributeType attrType = attributeTypes.stream().filter(type -> "security".equals(type.getName()))
-				        .findFirst().orElse(null);
-				attribute.setAttributeType(attrType);
-				
-				// Set UUID from coding.code
-				attribute.setUuid(coding.getCode());
-				
-				// Set value from display (assumes "security: "Restricted"")
-				String[] parts = display.split(":", 2);
-				if (parts.length == 2) {
-					String value = parts[1].trim();
-					attribute.setValueReferenceInternal("Restricted");//value
+				if (attrType == null) 
+				{
+					System.out.println(" VisitAttributeType 'security' not found.");
+					continue;
 				}
 				
-				// Add the attribute to the visit
-				visit.addAttribute(attribute);
+				// Find existing attribute
+				VisitAttribute existingAttr = visit.getActiveAttributes().stream()
+				        .filter(attr -> "security".equalsIgnoreCase(attr.getAttributeType().getName())).findFirst()
+				        .orElse(null);
 				
-				System.out.printf("Added visit attribute: uuid=%s, display=%s%n", coding.getCode(), display);
+				if (existingAttr != null) 
+				{
+					if (!displayValue.equals(existingAttr.getValue())) 
+					{
+						// Void the old one
+						existingAttr.setVoided(true);
+						existingAttr.setVoidReason("Updated by FHIR translator");
+						
+						// Add new one
+						VisitAttribute newAttr = new VisitAttribute();
+						newAttr.setAttributeType(attrType);
+						newAttr.setValue(valueToStore);
+						visit.addAttribute(newAttr);
+						System.out.println("Voided old attribute and added new one with display value: " + valueToStore);
+					} 
+					else 
+					{
+						System.out.println("Attribute already has display value '" + displayValue + "'. Skipping.");
+					}
+				} 
+				else
+				{
+					// No existing one — add new
+					VisitAttribute newAttr = new VisitAttribute();
+					newAttr.setAttributeType(attrType);
+					newAttr.setValue(valueToStore);
+					visit.addAttribute(newAttr);
+					System.out.println("Added new 'security' attribute with display value: " + valueToStore);
+				}
 			}
 		}
+		
+		// Save visit after processing all codings
+		Context.getVisitService().saveVisit(visit);
 		
 		return visit;
 	}
