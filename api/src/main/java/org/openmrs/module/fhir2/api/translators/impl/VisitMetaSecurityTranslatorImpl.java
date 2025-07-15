@@ -10,11 +10,13 @@
 
 package org.openmrs.module.fhir2.api.translators.impl;
 
+import javax.annotation.Nonnull;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.Nonnull;
-
+import lombok.AccessLevel;
+import lombok.Setter;
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.Meta;
 import org.openmrs.Visit;
@@ -23,9 +25,6 @@ import org.openmrs.VisitAttributeType;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.fhir2.api.translators.VisitMetaSecurityTranslator;
 import org.springframework.stereotype.Component;
-
-import lombok.AccessLevel;
-import lombok.Setter;
 
 @Component
 @Setter(AccessLevel.PACKAGE)
@@ -56,73 +55,45 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 	
 	@Override
 	public Visit toOpenmrsType(@Nonnull Visit visit, @Nonnull List<Coding> codings) {
-		if (visit == null || codings == null)
-		 {
+		if (visit == null || codings == null) {
+			
 			return null;
 		}
 		
-		for (Coding coding : codings)
-		 {
+		for (Coding coding : codings) {
+			
 			String display = coding.getDisplay();
-			if (display != null && display.toLowerCase().contains("security")) 
-			{
+			if (display != null && display.toLowerCase().contains("security")) {
+				// Create a new VisitAttribute
+				VisitAttribute attribute = new VisitAttribute();
 				
-				// The display value you want to store
-				String displayValue = "Restricted";
-				coding.setDisplay(displayValue);
+				// all visit attribute types
+				List<VisitAttributeType> attributeTypes = Context.getVisitService().getAllVisitAttributeTypes();
 				
-				// Store the display value directly as the attribute value
-				String valueToStore = displayValue;
+				// Then filter with security
+				VisitAttributeType attrType = attributeTypes.stream().filter(type -> "security".equals(type.getName()))
+				        .findFirst().orElse(null);
+				attribute.setAttributeType(attrType);
+				attribute.setValue("Restricted");
 				
-				// Find "security" attribute type
-				VisitAttributeType attrType = Context.getVisitService().getAllVisitAttributeTypes().stream()
-				        .filter(type -> "security".equalsIgnoreCase(type.getName())).findFirst().orElse(null);
+				// Set UUID from coding.code
+				attribute.setUuid(coding.getCode());
 				
-				if (attrType == null) 
-				{
-					System.out.println(" VisitAttributeType 'security' not found.");
-					continue;
+				// Set value from display (assumes "security: "Restricted"")
+				String[] parts = display.split(":", 2);
+				if (parts.length == 2) {
+					String value = parts[1].trim();
+					attribute.setValueReferenceInternal("Restricted");//value
 				}
 				
-				// Find existing attribute
-				VisitAttribute existingAttr = visit.getActiveAttributes().stream()
-				        .filter(attr -> "security".equalsIgnoreCase(attr.getAttributeType().getName())).findFirst()
-				        .orElse(null);
+				// Add the attribute to the visit
+				visit.addAttribute(attribute);
+				Context.getVisitService().saveVisit(visit);
 				
-				if (existingAttr != null) 
-				{
-					if (!displayValue.equals(existingAttr.getValue())) 
-					{
-						// Void the old one
-						existingAttr.setVoided(true);
-						existingAttr.setVoidReason("Updated by FHIR translator");
-						
-						// Add new one
-						VisitAttribute newAttr = new VisitAttribute();
-						newAttr.setAttributeType(attrType);
-						newAttr.setValue(valueToStore);
-						visit.addAttribute(newAttr);
-						System.out.println("Voided old attribute and added new one with display value: " + valueToStore);
-					} 
-					else 
-					{
-						System.out.println("Attribute already has display value '" + displayValue + "'. Skipping.");
-					}
-				} 
-				else
-				{
-					// No existing one — add new
-					VisitAttribute newAttr = new VisitAttribute();
-					newAttr.setAttributeType(attrType);
-					newAttr.setValue(valueToStore);
-					visit.addAttribute(newAttr);
-					System.out.println("Added new 'security' attribute with display value: " + valueToStore);
-				}
+				System.out.printf("Added visit attribute: uuid=%s, display=%s%n", coding.getCode(), display);
+				
 			}
 		}
-		
-		// Save visit after processing all codings
-		Context.getVisitService().saveVisit(visit);
 		
 		return visit;
 	}
