@@ -42,8 +42,10 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 		visit.getAttributes().forEach(attr -> {
 			String attrTypeName = attr.getAttributeType().getName();
 			if ("security".equalsIgnoreCase(attrTypeName)) {
-				Coding coding = new Coding().setSystem("http://example.org/security-tags").setCode(attr.getUuid())
-				        .setDisplay(attrTypeName + ": " + "Restricted");
+				Object value = attr.getValue();
+				String displayValue = value != null ? value.toString() : "Restricted";
+				Coding coding = new Coding().setSystem("http://terminology.hl7.org/CodeSystem/v3-Confidentiality")
+				        .setCode(attr.getUuid()).setDisplay(attrTypeName + ": " + displayValue);
 				securityTags.add(coding);
 			}
 		});
@@ -56,13 +58,12 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 	@Override
 	public Visit toOpenmrsType(@Nonnull Visit visit, @Nonnull List<Coding> codings) {
 		if (visit == null || codings == null) {
-			
 			return null;
 		}
 		
 		for (Coding coding : codings) {
-			
 			String display = coding.getDisplay();
+			
 			if (display != null && display.toLowerCase().contains("security")) {
 				// Create a new VisitAttribute
 				VisitAttribute attribute = new VisitAttribute();
@@ -73,17 +74,22 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 				// Then filter with security
 				VisitAttributeType attrType = attributeTypes.stream().filter(type -> "security".equals(type.getName()))
 				        .findFirst().orElse(null);
-				attribute.setAttributeType(attrType);
-				attribute.setValue("Restricted");
 				
-				// Set UUID from coding.code
+				attribute.setAttributeType(attrType);
 				attribute.setUuid(coding.getCode());
 				
-				// Set value from display (assumes "security: "Restricted"")
+				// Extract dynamic value from display
 				String[] parts = display.split(":", 2);
 				if (parts.length == 2) {
 					String value = parts[1].trim();
-					attribute.setValueReferenceInternal("Restricted");//value
+					
+					// Set both value and valueReferenceInternal dynamically
+					attribute.setValue(value);
+					attribute.setValueReferenceInternal(value);
+				} else {
+					// fallback if display is malformed
+					attribute.setValue("Unknown");
+					attribute.setValueReferenceInternal("Unknown");
 				}
 				
 				// Add the attribute to the visit
@@ -91,7 +97,6 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 				Context.getVisitService().saveVisit(visit);
 				
 				System.out.printf("Added visit attribute: uuid=%s, display=%s%n", coding.getCode(), display);
-				
 			}
 		}
 		
