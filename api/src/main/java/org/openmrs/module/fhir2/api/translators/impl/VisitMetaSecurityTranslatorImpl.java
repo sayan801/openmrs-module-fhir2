@@ -88,8 +88,8 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 					attribute.setValueReferenceInternal(value);
 				} else {
 					// fallback if display is malformed
-					attribute.setValue("Unknown");
-					attribute.setValueReferenceInternal("Unknown");
+					attribute.setValue("Restricted");
+					attribute.setValueReferenceInternal("Restricted");
 				}
 				
 				// Add the attribute to the visit
