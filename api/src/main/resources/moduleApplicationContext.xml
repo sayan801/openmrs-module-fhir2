@@ -49,16 +49,4 @@
     <bean id="fhirUcumService" class="org.fhir.ucum.UcumEssenceService">
         <constructor-arg name="stream" value="classpath:ucum-fhir-essence.xml" />
     </bean>
-
-    <!-- TODO It would be nice to be able to leverage the serviceInterceptor list directly, but this is a
-         list of beans to match the TransactionProxyFactoryBean class and here we need names-->
-    <bean class="org.openmrs.module.fhir2.spring.FhirAutoProxyCreator">
-        <property name="interceptorNames">
-            <list>
-                <value>authorizationInterceptor</value>
-                <value>cacheInterceptor</value>
-                <value>transactionInterceptor</value>
-            </list>
-        </property>
-    </bean>
 </beans>
