@@ -50,8 +50,10 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 					if (parts.length == 2) {
 						display = parts[1].trim();
 					} else {
-						display = displayValue;
+						display = displayValue.trim();
 					}
+				} else {
+					display = displayValue.trim();
 				}
 				String code = getSecurityCodeFromDisplay(display);
 				
