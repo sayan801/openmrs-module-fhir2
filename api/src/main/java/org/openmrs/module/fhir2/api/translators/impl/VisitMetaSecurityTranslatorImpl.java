@@ -22,13 +22,22 @@ import org.hl7.fhir.r4.model.Meta;
 import org.openmrs.Visit;
 import org.openmrs.VisitAttribute;
 import org.openmrs.VisitAttributeType;
+import org.openmrs.api.VisitService;
 import org.openmrs.api.context.Context;
 import org.openmrs.module.fhir2.api.translators.VisitMetaSecurityTranslator;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 @Setter(AccessLevel.PACKAGE)
 public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTranslator<Visit> {
+	
+	public VisitService visitService;
+	
+	@Autowired
+	public VisitMetaSecurityTranslatorImpl(VisitService visitService) {
+		this.visitService = visitService;
+	}
 	
 	@Override
 	public Meta toFhirResource(@Nonnull Visit visit) {
@@ -92,23 +101,6 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 				attribute.setUuid(coding.getCode());
 				attribute.setValue(display);
 				attribute.setValueReferenceInternal(display);
-				
-				// Extract dynamic value from display
-				// String[] parts = display.split(":", 2);
-				// if (parts.length == 2) 
-				// {
-				// 	String value = parts[1].trim();
-				
-				// 	// Set both value and valueReferenceInternal dynamically
-				// 	attribute.setValue(value);
-				// 	attribute.setValueReferenceInternal(value);
-				// }
-				//  else 
-				//  {
-				// 	// fallback if display is malformed
-				// 	attribute.setValue("Restricted");
-				// 	attribute.setValueReferenceInternal("Restricted");
-				// }
 				
 				// Add the attribute to the visit
 				visit.addAttribute(attribute);

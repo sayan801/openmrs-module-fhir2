@@ -43,8 +43,8 @@
         <module>api-2.7</module>
         <module>omod</module>
         <module>integration-tests</module>
-        <!-- <module>integration-tests-2.6</module> -->
-        <!-- <module>integration-tests-2.7</module> -->
+        <module>integration-tests-2.6</module>
+        <module>integration-tests-2.7</module>
         <module>e2e-tests</module>
     </modules>
 

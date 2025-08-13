@@ -86,6 +86,9 @@ public class VisitTranslatorImplTest {
 	@Mock
 	private EncounterClassMap encounterClassMap;
 	
+	@Mock
+	private VisitMetaSecurityTranslatorImpl visitMetaSecurityTranslator;
+	
 	private VisitTranslatorImpl visitTranslator;
 	
 	private Date periodStart, periodEnd;
@@ -99,6 +102,7 @@ public class VisitTranslatorImplTest {
 		visitTranslator.setEncounterClassMap(encounterClassMap);
 		visitTranslator.setVisitTypeTranslator(visitTypeTranslator);
 		visitTranslator.setVisitPeriodTranslator(visitPeriodTranslator);
+		visitTranslator.setVisitMetaSecurityTranslator(visitMetaSecurityTranslator);
 		
 		periodStart = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss").parse("10-Jan-2019 10:11:00");
 		periodEnd = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss").parse("10-Jan-2019 11:00:00");
