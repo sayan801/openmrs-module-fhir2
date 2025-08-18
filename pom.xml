@@ -561,6 +561,12 @@
             <groupId>pl.pragmatists</groupId>
             <artifactId>JUnitParams</artifactId>
         </dependency>
+         <dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-inline</artifactId>
+			<version>4.6.1</version>
+			<scope>test</scope>
+	     </dependency>
     </dependencies>
 
     <build>
@@ -933,7 +939,7 @@
                             <version>3.3.1</version>
                         </dependency>
                     </dependencies>
-                </plugin>
+                </plugin> 
             </plugins>
         </pluginManagement>
     </build>
