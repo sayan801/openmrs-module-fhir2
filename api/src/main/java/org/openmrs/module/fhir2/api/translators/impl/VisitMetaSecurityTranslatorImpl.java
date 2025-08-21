@@ -10,11 +10,13 @@
 
 package org.openmrs.module.fhir2.api.translators.impl;
 
+import javax.annotation.Nonnull;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.annotation.Nonnull;
-
+import lombok.AccessLevel;
+import lombok.Setter;
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.Meta;
 import org.openmrs.Visit;
@@ -25,9 +27,6 @@ import org.openmrs.api.context.Context;
 import org.openmrs.module.fhir2.api.translators.VisitMetaSecurityTranslator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import lombok.AccessLevel;
-import lombok.Setter;
 
 @Component
 @Setter(AccessLevel.PACKAGE)
@@ -59,25 +58,18 @@ public class VisitMetaSecurityTranslatorImpl implements VisitMetaSecurityTransla
 				if (attr != null && attr.getAttributeType() != null) { // Add null checks
 					String attrTypeName = attr.getAttributeType().getName();
 					
-					if (attrTypeName != null && "security".equalsIgnoreCase(attrTypeName)) 
-					{
+					if (attrTypeName != null && "security".equalsIgnoreCase(attrTypeName)) {
 						Object value = attr.getValue();
 						String displayValue = value != null ? value.toString() : "Restricted";
 						String display = "";
-						if (displayValue.contains(":"))
-						 {
+						if (displayValue.contains(":")) {
 							String[] parts = displayValue.split(":", 2);
-							if (parts.length == 2) 
-							{
+							if (parts.length == 2) {
 								display = parts[1].trim();
-							} 
-							else 
-							{
+							} else {
 								display = displayValue.trim();
 							}
-						} 
-						else 
-						{
+						} else {
 							display = displayValue.trim();
 						}
 						String code = getSecurityCodeFromDisplay(display);
