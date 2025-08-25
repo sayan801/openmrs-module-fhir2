@@ -47,19 +47,22 @@ import org.hl7.fhir.r4.model.StringType;
 import org.hl7.fhir.r4.model.Task;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.openmrs.BaseOpenmrsMetadata;
 import org.openmrs.Concept;
 import org.openmrs.module.fhir2.FhirConstants;
 import org.openmrs.module.fhir2.api.translators.ConceptTranslator;
+import org.openmrs.module.fhir2.api.translators.ReferenceTranslator;
 import org.openmrs.module.fhir2.model.FhirReference;
 import org.openmrs.module.fhir2.model.FhirTask;
 import org.openmrs.module.fhir2.model.FhirTaskInput;
 import org.openmrs.module.fhir2.model.FhirTaskOutput;
 
-@RunWith(MockitoJUnitRunner.class)
+// @RunWith(MockitoJUnitRunner.class)
+@ExtendWith(MockitoExtension.class)
 public class TaskTranslatorImplTest {
 	
 	private static final String TASK_UUID = "d899333c-5bd4-45cc-b1e7-2f9542dbcbf6";
@@ -92,8 +95,10 @@ public class TaskTranslatorImplTest {
 	
 	private static final String OPENELIS_ID = "openelis";
 	
+	// @Mock
+	// private ReferenceTranslatorImpl referenceTranslator;
 	@Mock
-	private ReferenceTranslatorImpl referenceTranslator;
+	ReferenceTranslator referenceTranslator;
 	
 	@Mock
 	private TaskInputTranslatorImpl taskInputTranslator;
@@ -104,7 +109,10 @@ public class TaskTranslatorImplTest {
 	@Mock
 	private ConceptTranslator conceptTranslator;
 	
-	private TaskTranslatorImpl taskTranslator;
+	// private TaskTranslatorImpl taskTranslator;
+	
+	@InjectMocks
+	TaskTranslatorImpl taskTranslator;
 	
 	@Before
 	public void setup() {
