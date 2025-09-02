@@ -1,0 +1,583 @@
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-65-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateUnsupportedIntent » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.openmrs.Auditable, class java.lang.Object, interface java.io.Serializable, interface org.openmrs.Attributable, class org.openmrs.Concept, interface org.openmrs.Retireable, class org.openmrs.BaseOpenmrsObject, interface org.openmrs.customdatatype.Customizable, interface org.openmrs.OpenmrsObject, interface org.openmrs.Changeable, interface org.openmrs.Creatable]
+[ERROR]   VisitReferenceTranslatorImplTest.toFhirResource_shouldConvertVisitToReference » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-65-generic
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.hl7.fhir.instance.model.api.IBaseBackboneElement, class org.hl7.fhir.r4.model.BackboneElement, class java.lang.Object, interface ca.uhn.fhir.model.api.IElement, class org.hl7.fhir.r4.model.Group$GroupMemberComponent, interface org.hl7.fhir.instance.model.api.IBase, interface java.io.Serializable, interface org.hl7.fhir.instance.model.api.IBaseElement, interface org.hl7.fhir.instance.model.api.IBaseHasModifierExtensions, class org.hl7.fhir.r4.model.Base, class org.hl7.fhir.r4.model.Element, interface org.hl7.fhir.instance.model.api.IBaseHasExtensions]
+[ERROR]   GroupFhirResourceProviderTest.shouldUpdateExistingGroup:106 Mockito 
+Mockito cannot mock this class: class org.hl7.fhir.r4.model.Group$GroupMemberComponent.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-65-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.hl7.fhir.instance.model.api.IBaseBackboneElement, class org.hl7.fhir.r4.model.BackboneElement, class java.lang.Object, interface ca.uhn.fhir.model.api.IElement, class org.hl7.fhir.r4.model.Group$GroupMemberComponent, interface org.hl7.fhir.instance.model.api.IBase, interface java.io.Serializable, interface org.hl7.fhir.instance.model.api.IBaseElement, interface org.hl7.fhir.instance.model.api.IBaseHasModifierExtensions, class org.hl7.fhir.r4.model.Base, class org.hl7.fhir.r4.model.Element, interface org.hl7.fhir.instance.model.api.IBaseHasExtensions]
+[INFO] 
+[ERROR] Tests run: 4023, Failures: 0, Errors: 1408, Skipped: 2
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for FHIR2 2.6.0-SNAPSHOT:
+[INFO] 
+[INFO] FHIR2 .............................................. SUCCESS [  0.243 s]
+[INFO] FHIR2 Test Data .................................... SUCCESS [  4.326 s]
+[INFO] FHIR2 API .......................................... FAILURE [19:42 min]
+[INFO] FHIR2 API 2.5 ...................................... SKIPPED
+[INFO] FHIR2 API 2.6 ...................................... SKIPPED
+[INFO] FHIR2 API 2.7 ...................................... SKIPPED
+[INFO] FHIR2 OMOD ......................................... SKIPPED
+[INFO] FHIR2 Integration Tests ............................ SKIPPED
+[INFO] FHIR2 Integration Tests 2.6 ........................ SKIPPED
+[INFO] FHIR2 Integration Tests 2.7 ........................ SKIPPED
+[INFO] FHIR2 End-to-End Tests ............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19:47 min
+[INFO] Finished at: 2025-08-25T13:15:51+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project fhir2-api: 
+[ERROR] 
+[ERROR] See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project fhir2-api: 
+
+See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+=========================================================================================================================================
+
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project fhir2-api: 
+[ERROR] 
+[ERROR] See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825152711276_3.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-26-36_119-jvmRun1' 'surefire-20250825152711276_1tmp' 'surefire_0-20250825152711276_2tmp'
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Process Exit Code: 1
+[ERROR] org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825152711276_3.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-26-36_119-jvmRun1' 'surefire-20250825152711276_1tmp' 'surefire_0-20250825152711276_2tmp'
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Process Exit Code: 1
+[ERROR]         at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:643)
+[ERROR]         at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+[ERROR]         at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+[ERROR]         at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1337)
+[ERROR]         at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1135)
+[ERROR]         at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:969)
+[ERROR]         at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+[ERROR]         at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+[ERROR]         at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+[ERROR]         at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+[ERROR]         at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+[ERROR]         at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+[ERROR]         at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+[ERROR]         at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+[ERROR]         at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+[ERROR]         at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+[ERROR]         at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+[ERROR]         at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+[ERROR]         at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+[ERROR]         at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+[ERROR]         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[ERROR]         at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[ERROR]         at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[ERROR]         at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[ERROR]         at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+[ERROR]         at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+[ERROR]         at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+[ERROR]         at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project fhir2-api: 
+
+See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825152711276_3.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-26-36_119-jvmRun1' 'surefire-20250825152711276_1tmp' 'surefire_0-20250825152711276_2tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825152711276_3.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-26-36_119-jvmRun1' 'surefire-20250825152711276_1tmp' 'surefire_0-20250825152711276_2tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+        at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:643)
+        at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+        at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+        at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1337)
+        at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1135)
+        at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:969)
+        at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+        at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+        at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+        at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+        at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+        at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.MojoExecutionException: 
+
+See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825152711276_3.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-26-36_119-jvmRun1' 'surefire-20250825152711276_1tmp' 'surefire_0-20250825152711276_2tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825152711276_3.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-26-36_119-jvmRun1' 'surefire-20250825152711276_1tmp' 'surefire_0-20250825152711276_2tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+        at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:643)
+        at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:285)
+        at org.apache.maven.plugin.surefire.booterclient.ForkStarter.run(ForkStarter.java:250)
+        at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1337)
+        at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1135)
+        at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:969)
+        at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+        at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+        at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+        at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+        at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+        at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+        at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+        at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+        at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+        at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+        at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+        
+        
+===================================================================================================================================================================
+
+
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_426.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_424tmp' 'surefire_141-20250825153330393_425tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_429.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_427tmp' 'surefire_142-20250825153330393_428tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_432.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_430tmp' 'surefire_143-20250825153330393_431tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_435.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_433tmp' 'surefire_144-20250825153330393_434tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_438.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_436tmp' 'surefire_145-20250825153330393_437tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_441.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_439tmp' 'surefire_146-20250825153330393_440tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_444.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_442tmp' 'surefire_147-20250825153330393_443tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_447.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_445tmp' 'surefire_148-20250825153330393_446tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_450.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_448tmp' 'surefire_149-20250825153330393_449tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_453.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_451tmp' 'surefire_150-20250825153330393_452tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_456.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_454tmp' 'surefire_151-20250825153330393_455tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_459.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_457tmp' 'surefire_152-20250825153330393_458tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_462.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_460tmp' 'surefire_153-20250825153330393_461tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_465.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_463tmp' 'surefire_154-20250825153330393_464tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_468.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_466tmp' 'surefire_155-20250825153330393_467tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_471.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_469tmp' 'surefire_156-20250825153330393_470tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_474.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_472tmp' 'surefire_157-20250825153330393_473tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_477.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_475tmp' 'surefire_158-20250825153330393_476tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_480.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_478tmp' 'surefire_159-20250825153330393_479tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_483.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_481tmp' 'surefire_160-20250825153330393_482tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_486.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_484tmp' 'surefire_161-20250825153330393_485tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_489.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_487tmp' 'surefire_162-20250825153330393_488tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_492.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_490tmp' 'surefire_163-20250825153330393_491tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_495.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_493tmp' 'surefire_164-20250825153330393_494tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_498.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_496tmp' 'surefire_165-20250825153330393_497tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_501.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_499tmp' 'surefire_166-20250825153330393_500tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_504.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_502tmp' 'surefire_167-20250825153330393_503tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_507.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_505tmp' 'surefire_168-20250825153330393_506tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_510.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_508tmp' 'surefire_169-20250825153330393_509tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_513.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_511tmp' 'surefire_170-20250825153330393_512tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_516.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_514tmp' 'surefire_171-20250825153330393_515tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_519.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_517tmp' 'surefire_172-20250825153330393_518tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_522.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_520tmp' 'surefire_173-20250825153330393_521tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_525.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_523tmp' 'surefire_174-20250825153330393_524tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_528.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_526tmp' 'surefire_175-20250825153330393_527tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_531.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_529tmp' 'surefire_176-20250825153330393_530tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_534.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_532tmp' 'surefire_177-20250825153330393_533tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+
+VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_534.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_532tmp' 'surefire_177-20250825153330393_533tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+
+===================================================================================================================================================================
+
+
+[ERROR]   VisitTranslatorImplTest.toOpenMrsType_shouldTranslateTypeToVisitType » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+If you're not sure why you're getting this error, please report to the mailing list.
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-65-generic
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+
+
+===================================================================================================================================================================
+
+
+        
+
+===================================================================================================================================================================
+
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_426.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_424tmp' 'surefire_141-20250825153330393_425tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_429.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_427tmp' 'surefire_142-20250825153330393_428tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_432.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_430tmp' 'surefire_143-20250825153330393_431tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_435.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_433tmp' 'surefire_144-20250825153330393_434tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_438.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_436tmp' 'surefire_145-20250825153330393_437tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_441.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_439tmp' 'surefire_146-20250825153330393_440tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_444.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_442tmp' 'surefire_147-20250825153330393_443tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_447.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_445tmp' 'surefire_148-20250825153330393_446tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_450.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_448tmp' 'surefire_149-20250825153330393_449tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_453.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_451tmp' 'surefire_150-20250825153330393_452tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_456.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_454tmp' 'surefire_151-20250825153330393_455tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_459.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_457tmp' 'surefire_152-20250825153330393_458tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_462.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_460tmp' 'surefire_153-20250825153330393_461tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_465.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_463tmp' 'surefire_154-20250825153330393_464tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_468.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_466tmp' 'surefire_155-20250825153330393_467tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_471.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_469tmp' 'surefire_156-20250825153330393_470tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_474.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_472tmp' 'surefire_157-20250825153330393_473tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_477.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_475tmp' 'surefire_158-20250825153330393_476tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_480.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_478tmp' 'surefire_159-20250825153330393_479tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_483.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_481tmp' 'surefire_160-20250825153330393_482tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_486.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_484tmp' 'surefire_161-20250825153330393_485tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_489.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_487tmp' 'surefire_162-20250825153330393_488tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_492.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_490tmp' 'surefire_163-20250825153330393_491tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_495.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_493tmp' 'surefire_164-20250825153330393_494tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_498.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_496tmp' 'surefire_165-20250825153330393_497tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_501.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_499tmp' 'surefire_166-20250825153330393_500tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_504.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_502tmp' 'surefire_167-20250825153330393_503tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_507.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_505tmp' 'surefire_168-20250825153330393_506tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_510.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_508tmp' 'surefire_169-20250825153330393_509tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_513.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_511tmp' 'surefire_170-20250825153330393_512tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_516.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_514tmp' 'surefire_171-20250825153330393_515tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_519.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_517tmp' 'surefire_172-20250825153330393_518tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_522.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_520tmp' 'surefire_173-20250825153330393_521tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_525.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_523tmp' 'surefire_174-20250825153330393_524tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_528.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_526tmp' 'surefire_175-20250825153330393_527tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_531.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_529tmp' 'surefire_176-20250825153330393_530tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+ExecutionException The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_534.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_532tmp' 'surefire_177-20250825153330393_533tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
+
+VM crash or System.exit called?
+Command was /bin/sh -c cd '/home/technicise44/code/openmrs-module-fhir2/api' && '/usr/lib/jvm/java-17-openjdk-amd64/bin/java' '--add-opens' 'java.base/java.lang=ALL-UNNAMED' '--add-opens' 'java.base/java.lang.reflect=ALL-UNNAMED' '--add-opens' 'java.base/java.util=ALL-UNNAMED' '--add-opens' 'java.base/java.io=ALL-UNNAMED' '--add-opens' 'java.base/sun.nio.ch=ALL-UNNAMED' '--add-opens' 'java.base/java.nio=ALL-UNNAMED' '--add-opens' 'java.base/java.util.concurrent=ALL-UNNAMED' '--add-opens' 'java.base/java.net=ALL-UNNAMED' '-javaagent:/home/technicise44/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar' '-jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire/surefirebooter-20250825153330393_534.jar' '/home/technicise44/code/openmrs-module-fhir2/api/target/surefire' '2025-08-25T15-33-05_482-jvmRun1' 'surefire-20250825153330393_532tmp' 'surefire_177-20250825153330393_533tmp'
+Error occurred in starting fork, check output in log
+Process Exit Code: 1
