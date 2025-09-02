@@ -1,0 +1,916 @@
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toFhirResource_shouldTranslateOutputNumeric » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toFhirResource_shouldTranslateOutputReference » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toFhirResource_shouldTranslateOutputText » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toOpenmrsType_shouldReturnNullIfFhirOutputHasValueTypeNotSupported » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toOpenmrsType_shouldTranslateOutputDate » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toOpenmrsType_shouldTranslateOutputNumeric » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toOpenmrsType_shouldTranslateOutputReference » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskOutputTranslatorImplTest.toOpenmrsType_shouldTranslateOutputText » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.module.fhir2.api.translators.impl.ReferenceTranslatorImpl, class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.ReferenceTranslator]
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateBasedOn:336->shouldTranslateReferenceListToFhir:1286 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toFhirResource(org.openmrs.module.fhir2.model.FhirReference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateEncounter:361->shouldTranslateReferenceToFhir:1219 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toFhirResource(org.openmrs.module.fhir2.model.FhirReference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateFor:411->shouldTranslateReferenceToFhir:1219 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toFhirResource(org.openmrs.module.fhir2.model.FhirReference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateInputTextValue:735 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskInputTranslatorImpl.toFhirResource(org.openmrs.module.fhir2.model.FhirTaskInput)" because "this.taskInputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateLocation:434->shouldTranslateReferenceToFhir:1219 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toFhirResource(org.openmrs.module.fhir2.model.FhirReference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateMultipleInputValueTypes:842 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskInputTranslatorImpl.toFhirResource(org.openmrs.module.fhir2.model.FhirTaskInput)" because "this.taskInputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateMultipleOutputValueTypes:590 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskOutputTranslatorImpl.toFhirResource(org.openmrs.module.fhir2.model.FhirTaskOutput)" because "this.taskOutputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateOutputReference:476 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskOutputTranslatorImpl.toFhirResource(org.openmrs.module.fhir2.model.FhirTaskOutput)" because "this.taskOutputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateOwner:386->shouldTranslateReferenceToFhir:1219 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toFhirResource(org.openmrs.module.fhir2.model.FhirReference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslatePartOf:1026->shouldTranslateReferenceListToFhir:1286 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toFhirResource(org.openmrs.module.fhir2.model.FhirReference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toFhirResource_shouldTranslateTaskCode:977 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ConceptTranslator.toFhirResource(org.openmrs.Concept)" because "this.conceptTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateBasedOn:344->shouldTranslateReferenceListToOpenmrs:1309 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateEncounter:369->shouldTranslateReferenceToOpenmrs:1240 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateFor:418->shouldTranslateReferenceToOpenmrs:1240 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateInputTextValue:763 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskInputTranslatorImpl.toOpenmrsType(org.hl7.fhir.r4.model.Task$ParameterComponent)" because "this.taskInputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateLocation:442->shouldTranslateReferenceToOpenmrs:1240 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateMultipleInputValueTypes:926 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskInputTranslatorImpl.toOpenmrsType(org.hl7.fhir.r4.model.Task$ParameterComponent)" because "this.taskInputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateMultipleOutputValueTypes:674 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskOutputTranslatorImpl.toOpenmrsType(org.hl7.fhir.r4.model.Task$TaskOutputComponent)" because "this.taskOutputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateOutputReference:507 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskOutputTranslatorImpl.toOpenmrsType(org.hl7.fhir.r4.model.Task$TaskOutputComponent)" because "this.taskOutputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateOwner:394->shouldTranslateReferenceToOpenmrs:1240 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslatePartOf:1034->shouldTranslateReferenceListToOpenmrs:1309 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldTranslateTaskCode:993 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ConceptTranslator.toOpenmrsType(org.hl7.fhir.r4.model.CodeableConcept)" because "this.conceptTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateBasedOn:352->shouldUpdateReferenceListInOpenmrs:1335 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateEncounter:377->shouldUpdateReferenceInOpenmrs:1265 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateFor:426->shouldUpdateReferenceInOpenmrs:1265 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateInputTextValue:793 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskInputTranslatorImpl.toOpenmrsType(org.hl7.fhir.r4.model.Task$ParameterComponent)" because "this.taskInputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateLocation:450->shouldUpdateReferenceInOpenmrs:1265 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateOutputReference:540 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.impl.TaskOutputTranslatorImpl.toOpenmrsType(org.hl7.fhir.r4.model.Task$TaskOutputComponent)" because "this.taskOutputTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateOwner:402->shouldUpdateReferenceInOpenmrs:1265 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdatePartOf:1042->shouldUpdateReferenceListInOpenmrs:1335 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ReferenceTranslator.toOpenmrsType(org.hl7.fhir.r4.model.Reference)" because "this.referenceTranslator" is null
+[ERROR]   TaskTranslatorImplTest.toOpenmrsType_shouldUpdateTaskCodeOnExistingTask:1013 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.translators.ConceptTranslator.toOpenmrsType(org.hl7.fhir.r4.model.CodeableConcept)" because "this.conceptTranslator" is null
+[ERROR]   ValueSetTranslatorImplTest.setup:55 Mockito 
+Mockito cannot mock this class: class org.openmrs.Concept.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class org.openmrs.BaseOpenmrsObject, interface org.openmrs.customdatatype.Customizable, class java.lang.Object, interface org.openmrs.Auditable, interface org.openmrs.Changeable, interface java.io.Serializable, class org.openmrs.Concept, interface org.openmrs.OpenmrsObject, interface org.openmrs.Creatable, interface org.openmrs.Attributable, interface org.openmrs.Retireable]
+[ERROR]   VisitReferenceTranslatorImplTest.toFhirResource_shouldConvertVisitToReference » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitReferenceTranslatorImplTest.toFhirResource_shouldReturnNullIfVisitNull » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitReferenceTranslatorImplTest.toOpenmrsType_shouldConvertReferenceToVisit » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitReferenceTranslatorImplTest.toOpenmrsType_shouldReturnNullIfEncounterHasNoIdentifier » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitReferenceTranslatorImplTest.toOpenmrsType_shouldReturnNullIfEncounterIdentifierHasNoValue » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitReferenceTranslatorImplTest.toOpenmrsType_shouldReturnNullIfReferenceNull » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitReferenceTranslatorImplTest.toOpenmrsType_shouldThrowExceptionIfReferenceIsNotForEncounter » Mockito 
+Mockito cannot mock this class: interface org.openmrs.module.fhir2.api.dao.FhirVisitDao.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface java.io.Serializable, interface org.openmrs.module.fhir2.api.dao.FhirVisitDao, interface org.openmrs.module.fhir2.api.dao.FhirDao]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldConvertStatus » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldConvertUuidToId » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldHaveEncounterTag » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldThrowExceptionWhenVisitIsNull » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateDateStartedStoppedToPeriod » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateToEncounterClassFhirType » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateToEncounterDefaultClassFhirType » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateToLastUpdatedDate » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateToSubject » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateToVersionId » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toFhirResource_shouldTranslateTypeToEncounterType » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenMrsType_shouldThrowExceptionWhenEncounterIsNull » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenMrsType_shouldThrowExceptionWhenExistingVisitIsNull » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenMrsType_shouldTranslateToOpenMrsPatient » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenMrsType_shouldTranslateTypeToVisitType » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenmrsType_shouldConvertIdToUuid » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenmrsType_shouldConvertPeriodToStartStopDatetime » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   VisitTranslatorImplTest.toOpenmrsType_shouldConvertPeriodWithNullValues » Mockito 
+Mockito cannot mock this class: class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [class java.lang.Object, interface org.openmrs.module.fhir2.api.translators.VisitTypeTranslator, class org.openmrs.module.fhir2.api.translators.impl.VisitTypeTranslatorImpl]
+[ERROR]   GroupFhirResourceProviderTest.ShouldThrowInvalidRequestForMissingIdInGroupToUpdate »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.InvalidRequestException> but was<java.lang.NullPointerException>
+[ERROR]   GroupFhirResourceProviderTest.getGroupByUuid_shouldReturnMatchingGroup:72 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.FhirGroupService.get(String)" because "this.fhirGroupService" is null
+[ERROR]   GroupFhirResourceProviderTest.getGroupByUuid_shouldThrowResourceNotFoundException »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException> but was<java.lang.NullPointerException>
+[ERROR]   GroupFhirResourceProviderTest.getResourceType_shouldReturnResourceType:66 NullPointer Cannot invoke "org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProvider.getResourceType()" because "this.resourceProvider" is null
+[ERROR]   GroupFhirResourceProviderTest.shouldCreateNewGroup:92 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.FhirGroupService.create(org.hl7.fhir.instance.model.api.IAnyResource)" because "this.fhirGroupService" is null
+[ERROR]   GroupFhirResourceProviderTest.shouldDeleteRequestedGroup:156 NullPointer Cannot invoke "org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProvider.deleteGroup(org.hl7.fhir.dstu3.model.IdType)" because "this.resourceProvider" is null
+[ERROR]   GroupFhirResourceProviderTest.shouldThrowMethodNotAllowedIfGroupToUpdateDoesNotExist »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.MethodNotAllowedException> but was<java.lang.NullPointerException>
+[ERROR]   GroupFhirResourceProviderTest.shouldUpdateExistingGroup:105 Mockito 
+Mockito cannot mock this class: class org.hl7.fhir.r4.model.Group$GroupMemberComponent.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.hl7.fhir.instance.model.api.IBaseBackboneElement, class org.hl7.fhir.r4.model.Element, class java.lang.Object, class org.hl7.fhir.r4.model.BackboneElement, interface java.io.Serializable, interface org.hl7.fhir.instance.model.api.IBaseHasModifierExtensions, class org.hl7.fhir.r4.model.Group$GroupMemberComponent, interface org.hl7.fhir.instance.model.api.IBase, interface ca.uhn.fhir.model.api.IElement, class org.hl7.fhir.r4.model.Base, interface org.hl7.fhir.instance.model.api.IBaseElement, interface org.hl7.fhir.instance.model.api.IBaseHasExtensions]
+[ERROR]   GroupFhirResourceProviderTest.updateGroupShouldThrowInvalidRequestForUuidMismatch »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.InvalidRequestException> but was<java.lang.NullPointerException>
+[ERROR]   ProcedureRequestFhirResourceProviderTest.searchProcedureRequest_shouldAddRelatedResourcesToResultListWhenIncluded » InvalidUseOfMatchers 
+Misplaced or misused argument matcher detected here:
+
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.ShouldThrowInvalidRequestForMissingIdInGroupToUpdate(GroupFhirResourceProviderTest.java:135)
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.ShouldThrowInvalidRequestForMissingIdInGroupToUpdate(GroupFhirResourceProviderTest.java:135)
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.shouldThrowMethodNotAllowedIfGroupToUpdateDoesNotExist(GroupFhirResourceProviderTest.java:147)
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.shouldThrowMethodNotAllowedIfGroupToUpdateDoesNotExist(GroupFhirResourceProviderTest.java:147)
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.updateGroupShouldThrowInvalidRequestForUuidMismatch(GroupFhirResourceProviderTest.java:124)
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.updateGroupShouldThrowInvalidRequestForUuidMismatch(GroupFhirResourceProviderTest.java:124)
+-> at org.openmrs.module.fhir2.providers.r3.GroupFhirResourceProviderTest.shouldCreateNewGroup(GroupFhirResourceProviderTest.java:92)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[ERROR]   GroupFhirResourceProviderTest.ShouldThrowInvalidRequestForMissingIdInGroupToUpdate »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.InvalidRequestException> but was<java.lang.NullPointerException>
+[ERROR]   GroupFhirResourceProviderTest.getGroupByUuid_shouldReturnMatchingGroup:76 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.FhirGroupService.get(String)" because "this.fhirGroupService" is null
+[ERROR]   GroupFhirResourceProviderTest.getGroupByUuid_shouldThrowResourceNotFoundException »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException> but was<java.lang.NullPointerException>
+[ERROR]   GroupFhirResourceProviderTest.getResourceType_shouldReturnResourceType:70 NullPointer Cannot invoke "org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProvider.getResourceType()" because "this.resourceProvider" is null
+[ERROR]   GroupFhirResourceProviderTest.shouldCreateNewGroup:96 NullPointer Cannot invoke "org.openmrs.module.fhir2.api.FhirGroupService.create(org.hl7.fhir.instance.model.api.IAnyResource)" because "this.fhirGroupService" is null
+[ERROR]   GroupFhirResourceProviderTest.shouldDeleteRequestedGroup:155 NullPointer Cannot invoke "org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProvider.deleteGroup(org.hl7.fhir.r4.model.IdType)" because "this.resourceProvider" is null
+[ERROR]   GroupFhirResourceProviderTest.shouldThrowMethodNotAllowedIfGroupToUpdateDoesNotExist »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.MethodNotAllowedException> but was<java.lang.NullPointerException>
+[ERROR]   GroupFhirResourceProviderTest.shouldUpdateExistingGroup:109 Mockito 
+Mockito cannot mock this class: class org.hl7.fhir.r4.model.Group$GroupMemberComponent.
+
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 17
+JVM vendor name    : Ubuntu
+JVM vendor version : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 17.0.16+8-Ubuntu-0ubuntu122.04.1
+JVM info           : mixed mode, sharing
+OS name            : Linux
+OS version         : 6.8.0-78-generic
+
+
+You are seeing this disclaimer because Mockito is configured to create inlined mocks.
+You can learn about inline mocks and their limitations under item #39 of the Mockito class javadoc.
+
+Underlying exception : org.mockito.exceptions.base.MockitoException: Could not modify all classes [interface org.hl7.fhir.instance.model.api.IBaseBackboneElement, class org.hl7.fhir.r4.model.Element, class java.lang.Object, class org.hl7.fhir.r4.model.BackboneElement, interface java.io.Serializable, interface org.hl7.fhir.instance.model.api.IBaseHasModifierExtensions, class org.hl7.fhir.r4.model.Group$GroupMemberComponent, interface org.hl7.fhir.instance.model.api.IBase, interface ca.uhn.fhir.model.api.IElement, class org.hl7.fhir.r4.model.Base, interface org.hl7.fhir.instance.model.api.IBaseElement, interface org.hl7.fhir.instance.model.api.IBaseHasExtensions]
+[ERROR]   GroupFhirResourceProviderTest.updateGroupShouldThrowInvalidRequestForUuidMismatch »  Unexpected exception, expected<ca.uhn.fhir.rest.server.exceptions.InvalidRequestException> but was<java.lang.NullPointerException>
+[ERROR]   RelatedPersonFhirResourceProviderTest.searchForRelatedPeople_shouldReturnMatchingBundleOfRelatedPeopleByCity » InvalidUseOfMatchers 
+Misplaced or misused argument matcher detected here:
+
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.ShouldThrowInvalidRequestForMissingIdInGroupToUpdate(GroupFhirResourceProviderTest.java:136)
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.ShouldThrowInvalidRequestForMissingIdInGroupToUpdate(GroupFhirResourceProviderTest.java:136)
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.shouldThrowMethodNotAllowedIfGroupToUpdateDoesNotExist(GroupFhirResourceProviderTest.java:147)
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.shouldThrowMethodNotAllowedIfGroupToUpdateDoesNotExist(GroupFhirResourceProviderTest.java:147)
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.updateGroupShouldThrowInvalidRequestForUuidMismatch(GroupFhirResourceProviderTest.java:126)
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.updateGroupShouldThrowInvalidRequestForUuidMismatch(GroupFhirResourceProviderTest.java:126)
+-> at org.openmrs.module.fhir2.providers.r4.GroupFhirResourceProviderTest.shouldCreateNewGroup(GroupFhirResourceProviderTest.java:96)
+
+You cannot use argument matchers outside of verification or stubbing.
+Examples of correct usage of argument matchers:
+    when(mock.get(anyInt())).thenReturn(null);
+    doThrow(new RuntimeException()).when(mock).someVoidMethod(anyObject());
+    verify(mock).someMethod(contains("foo"))
+
+This message may appear after an NullPointerException if the last matcher is returning an object 
+like any() but the stubbed method signature expect a primitive argument, in this case,
+use primitive alternatives.
+    when(mock.get(any())); // bad use, will raise NPE
+    when(mock.get(anyInt())); // correct usage use
+
+Also, this error might show up because you use argument matchers with methods that cannot be mocked.
+Following methods *cannot* be stubbed/verified: final/private/equals()/hashCode().
+Mocking methods declared on non-public parent classes is not supported.
+
+[INFO] 
+[ERROR] Tests run: 4023, Failures: 1, Errors: 1397, Skipped: 2
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for FHIR2 2.6.0-SNAPSHOT:
+[INFO] 
+[INFO] FHIR2 .............................................. SUCCESS [  0.189 s]
+[INFO] FHIR2 Test Data .................................... SUCCESS [  3.690 s]
+[INFO] FHIR2 API .......................................... FAILURE [17:13 min]
+[INFO] FHIR2 API 2.5 ...................................... SKIPPED
+[INFO] FHIR2 API 2.6 ...................................... SKIPPED
+[INFO] FHIR2 API 2.7 ...................................... SKIPPED
+[INFO] FHIR2 OMOD ......................................... SKIPPED
+[INFO] FHIR2 Integration Tests ............................ SKIPPED
+[INFO] FHIR2 Integration Tests 2.6 ........................ SKIPPED
+[INFO] FHIR2 Integration Tests 2.7 ........................ SKIPPED
+[INFO] FHIR2 End-to-End Tests ............................. SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17:18 min
+[INFO] Finished at: 2025-09-02T18:43:29+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project fhir2-api: There are test failures.
+[ERROR] 
+[ERROR] See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.3:test (default-test) on project fhir2-api: There are test failures.
+
+See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.MojoFailureException: There are test failures.
+
+See /home/technicise44/code/openmrs-module-fhir2/api/target/surefire-reports for the individual test results.
+See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.plugin.surefire.SurefireHelper.throwException (SurefireHelper.java:247)
+    at org.apache.maven.plugin.surefire.SurefireHelper.reportExecution (SurefireHelper.java:159)
+    at org.apache.maven.plugin.surefire.SurefireMojo.handleSummary (SurefireMojo.java:547)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked (AbstractSurefireMojo.java:1147)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute (AbstractSurefireMojo.java:969)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :fhir2-api
