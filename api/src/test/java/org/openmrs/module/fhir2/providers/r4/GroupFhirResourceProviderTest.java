@@ -27,15 +27,17 @@ import ca.uhn.fhir.rest.server.exceptions.ResourceNotFoundException;
 import org.hl7.fhir.r4.model.Group;
 import org.hl7.fhir.r4.model.IdType;
 import org.hl7.fhir.r4.model.OperationOutcome;
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.openmrs.module.fhir2.api.FhirGroupMemberService;
 import org.openmrs.module.fhir2.api.FhirGroupService;
 
-@RunWith(MockitoJUnitRunner.class)
+// @RunWith(MockitoJUnitRunner.class)
+@ExtendWith(MockitoExtension.class)
 public class GroupFhirResourceProviderTest {
 	
 	private static final String COHORT_UUID = "ce8bfad7-c87e-4af0-80cd-c2015c7dff93";
@@ -48,11 +50,12 @@ public class GroupFhirResourceProviderTest {
 	@Mock
 	private FhirGroupMemberService groupMemberService;
 	
+	@InjectMocks
 	GroupFhirResourceProvider resourceProvider;
 	
 	Group group;
 	
-	@Before
+	@BeforeEach
 	public void setup() {
 		resourceProvider = new GroupFhirResourceProvider();
 		resourceProvider.setGroupService(fhirGroupService);

@@ -9,21 +9,14 @@
  */
 package org.openmrs.module.fhir2.api.translators.impl;
 
-import static lombok.AccessLevel.PROTECTED;
-import static org.apache.commons.lang3.Validate.notNull;
-import static org.openmrs.module.fhir2.api.translators.impl.FhirTranslatorUtils.getLastUpdated;
-import static org.openmrs.module.fhir2.api.translators.impl.FhirTranslatorUtils.getVersionId;
-
-import javax.annotation.Nonnull;
-
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
+import javax.annotation.Nonnull;
+
+import static org.apache.commons.lang3.Validate.notNull;
 import org.hl7.fhir.r4.model.Address;
 import org.hl7.fhir.r4.model.Extension;
 import org.hl7.fhir.r4.model.HumanName;
@@ -42,8 +35,15 @@ import org.openmrs.module.fhir2.api.translators.PersonAttributeTranslator;
 import org.openmrs.module.fhir2.api.translators.PersonNameTranslator;
 import org.openmrs.module.fhir2.api.translators.PersonTranslator;
 import org.openmrs.module.fhir2.api.translators.TelecomTranslator;
+import static org.openmrs.module.fhir2.api.translators.impl.FhirTranslatorUtils.getLastUpdated;
+import static org.openmrs.module.fhir2.api.translators.impl.FhirTranslatorUtils.getVersionId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import static lombok.AccessLevel.PROTECTED;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Component
@@ -163,7 +163,7 @@ public class PersonTranslatorImpl implements PersonTranslator {
 		List<Extension> personAttributeExtensions = person.getExtension().stream()
 		        .filter(extension -> extension.getUrl().equals(FhirConstants.OPENMRS_FHIR_EXT_PERSON_ATTRIBUTE))
 		        .collect(Collectors.toList());
-
+		
 		for (Extension extension : personAttributeExtensions) {
 			PersonAttribute personAttribute = personAttributeTranslator.toOpenmrsType(extension);
 			if (personAttribute != null) {

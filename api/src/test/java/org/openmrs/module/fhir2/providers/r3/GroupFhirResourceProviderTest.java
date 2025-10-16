@@ -28,9 +28,10 @@ import org.hl7.fhir.convertors.factory.VersionConvertorFactory_30_40;
 import org.hl7.fhir.dstu3.model.Group;
 import org.hl7.fhir.dstu3.model.IdType;
 import org.hl7.fhir.dstu3.model.OperationOutcome;
-import org.junit.Before;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.openmrs.module.fhir2.api.FhirGroupService;
@@ -46,11 +47,12 @@ public class GroupFhirResourceProviderTest {
 	@Mock
 	private FhirGroupService fhirGroupService;
 	
+	@InjectMocks
 	private GroupFhirResourceProvider resourceProvider;
 	
 	private org.hl7.fhir.r4.model.Group group;
 	
-	@Before
+	@BeforeEach
 	public void setup() {
 		resourceProvider = new GroupFhirResourceProvider();
 		resourceProvider.setGroupService(fhirGroupService);
