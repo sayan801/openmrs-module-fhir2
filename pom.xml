@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.openmrs.module</groupId>
@@ -32,7 +34,7 @@
         <connection>scm:git:git@github.com:openmrs/openmrs-module-fhir2.git</connection>
         <developerConnection>scm:git:git@github.com:openmrs/openmrs-module-fhir2.git</developerConnection>
         <url>https://github.com/openmrs/openmrs-module-fhir2/</url>
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <modules>
@@ -270,6 +272,11 @@
                         <artifactId>simple-java-mail</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>com.thoughtworks.xstream</groupId>
+                <artifactId>xstream</artifactId>
+                <version>1.4.20</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
@@ -687,6 +694,8 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.5.3</version>
                     <configuration>
+                        <!-- Open the java.util package so XStream can access TreeMap internals -->
+                        <argLine>--add-opens java.base/java.util=ALL-UNNAMED</argLine>
                         <excludes>
                             <exclude>**/*IntegrationTest</exclude>
                             <exclude>**/*DomainTest</exclude>
@@ -939,8 +948,8 @@
     </build>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <lombokVersion>1.18.38</lombokVersion>
