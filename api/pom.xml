@@ -78,6 +78,13 @@
 			<version>${project.parent.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>6.2.0</version>
+    <scope>compile</scope>
+</dependency>
     </dependencies>
 
 	<build>

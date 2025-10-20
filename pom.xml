@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.openmrs.module</groupId>
@@ -34,7 +32,7 @@
         <connection>scm:git:git@github.com:openmrs/openmrs-module-fhir2.git</connection>
         <developerConnection>scm:git:git@github.com:openmrs/openmrs-module-fhir2.git</developerConnection>
         <url>https://github.com/openmrs/openmrs-module-fhir2/</url>
-        <tag>HEAD</tag>
+      <tag>HEAD</tag>
     </scm>
 
     <modules>
@@ -209,8 +207,20 @@
                         <groupId>stax</groupId>
                         <artifactId>stax-api</artifactId>
                     </exclusion>
+                                        <!--exclusion>
+ <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+ 
+                    </exclusion-->
                 </exclusions>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+<!--dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>6.2.0</version>
+
+</dependency-->
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
                 <artifactId>hapi-fhir-base</artifactId>
@@ -272,11 +282,6 @@
                         <artifactId>simple-java-mail</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>com.thoughtworks.xstream</groupId>
-                <artifactId>xstream</artifactId>
-                <version>1.4.20</version>
             </dependency>
             <dependency>
                 <groupId>ca.uhn.hapi.fhir</groupId>
@@ -568,6 +573,27 @@
             <groupId>pl.pragmatists</groupId>
             <artifactId>JUnitParams</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
+<dependency>
+    <groupId>com.thoughtworks.xstream</groupId>
+    <artifactId>xstream</artifactId>
+    <version>1.4.21</version>
+</dependency>
+<dependency>
+    <groupId>org.ow2.asm</groupId>
+    <artifactId>asm</artifactId>
+    <version>9.7.1</version>
+</dependency>
+<dependency>
+    <groupId>org.ow2.asm</groupId>
+    <artifactId>asm-commons</artifactId>
+    <version>9.7.1</version>
+</dependency>
+<dependency>
+    <groupId>org.ow2.asm</groupId>
+    <artifactId>asm-util</artifactId>
+    <version>9.7.1</version>
+</dependency>
     </dependencies>
 
     <build>
@@ -642,6 +668,11 @@
                     <version>3.4.1</version>
                 </plugin>
                 <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-plugin-plugin</artifactId>
+    <version>3.10.2</version>
+</plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.14.0</version>
@@ -694,8 +725,6 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.5.3</version>
                     <configuration>
-                        <!-- Open the java.util package so XStream can access TreeMap internals -->
-                        <argLine>--add-opens java.base/java.util=ALL-UNNAMED</argLine>
                         <excludes>
                             <exclude>**/*IntegrationTest</exclude>
                             <exclude>**/*DomainTest</exclude>
@@ -881,7 +910,7 @@
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
-                    <version>0.8.8</version>
+                    <version>0.8.14</version>
                     <executions>
                         <execution>
                             <goals>
@@ -946,6 +975,9 @@
             </plugins>
         </pluginManagement>
     </build>
+
+
+
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
