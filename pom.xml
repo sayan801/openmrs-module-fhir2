@@ -509,6 +509,12 @@
                 <version>1.1.1</version>
                 <scope>test</scope>
             </dependency>
+            <!-- <dependency>
+                <groupId>org.hibernate.search</groupId>
+                <artifactId>hibernate-search-orm</artifactId>
+                <version>5.11.12.Final</version>
+            </dependency> -->
+
         </dependencies>
     </dependencyManagement>
 
@@ -685,7 +691,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.5.3</version>
+                    <version>3.5.4</version>
                     <configuration>
                         <excludes>
                             <exclude>**/*IntegrationTest</exclude>
@@ -804,7 +810,7 @@
                             <configuration>
                                 <rules>
                                     <requireMavenVersion>
-                                        <version>[3.6.3,)</version>
+                                        <version>[3.6.3]</version>
                                     </requireMavenVersion>
                                 </rules>
                             </configuration>
@@ -939,12 +945,12 @@
     </build>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
         <lombokVersion>1.18.38</lombokVersion>
-        <openmrsPlatformVersion>2.4.1</openmrsPlatformVersion>
+        <openmrsPlatformVersion>2.8.0</openmrsPlatformVersion>
         <openmrsPlatformToolsVersion>2.4.1</openmrsPlatformToolsVersion>
         <hapifhirVersion>5.7.9</hapifhirVersion>
         <ucumVersion>1.0.3</ucumVersion>
