@@ -78,10 +78,16 @@
 			<version>${project.parent.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- Hibernate Search 6: use the mapper and a backend implementation (Lucene) -->
 		<dependency>
 			<groupId>org.hibernate.search</groupId>
-			<artifactId>hibernate-search-orm</artifactId>
-			<version>5.11.12.Final</version> 
+			<artifactId>hibernate-search-mapper-orm</artifactId>
+			<version>6.2.11.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.search</groupId>
+			<artifactId>hibernate-search-backend-lucene</artifactId>
+			<version>6.2.11.Final</version>
 		</dependency>
 
 		<!-- <dependency>
