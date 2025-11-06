@@ -112,24 +112,41 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-framework-bom</artifactId>
+                <version>6.2.12</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- Spring Core without internal CGLIB -->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
                 <version>6.2.12</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.springframework</groupId>
-                        <artifactId>spring-cglib</artifactId> 
-                    </exclusion>
-                </exclusions>
+                <!-- This exclusion won't remove shaded classes but keeps Maven clean -->
+                <!-- <exclusions>
+                
+                <exclusion>
+                    <groupId>org.springframework.cglib</groupId>
+                    <artifactId>spring-cglib-repack</artifactId>
+                </exclusion>
+            </exclusions> -->
             </dependency>
-            <!-- https://mvnrepository.com/artifact/cglib/cglib -->
-            <dependency>
-                <groupId>cglib</groupId>
-                <artifactId>cglib</artifactId>
-                <version>3.3.0</version>
-            </dependency>
+
+            <!-- Add external official CGLIB -->
+            <!-- <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
+        </dependency> -->
+
+            <!-- ASM dependency for cglib -->
+            <!-- <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>9.7.1</version>
+        </dependency> -->
             <dependency>
                 <groupId>org.openmrs.api</groupId>
                 <artifactId>openmrs-api</artifactId>
