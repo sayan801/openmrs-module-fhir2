@@ -28,6 +28,7 @@ import org.openmrs.module.fhir2.api.translators.EncounterLocationTranslator;
 import org.openmrs.module.fhir2.api.translators.EncounterPeriodTranslator;
 import org.openmrs.module.fhir2.api.translators.EncounterTranslator;
 import org.openmrs.module.fhir2.api.translators.PatientReferenceTranslator;
+import org.openmrs.module.fhir2.api.translators.VisitMetaSecurityTranslator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -50,6 +51,10 @@ public class VisitTranslatorImpl extends BaseEncounterTranslator implements Enco
 	@Setter(value = PROTECTED, onMethod_ = @Autowired)
 	private EncounterPeriodTranslator<Visit> visitPeriodTranslator;
 	
+	@Getter(PROTECTED)
+	@Setter(value = PROTECTED, onMethod_ = @Autowired)
+	private VisitMetaSecurityTranslator<org.openmrs.Visit> VisitMetaSecurityTranslator;
+	
 	@Override
 	public Encounter toFhirResource(@Nonnull Visit visit) {
 		notNull(visit, "The OpenMrs Visit object should not be null");
@@ -68,6 +73,7 @@ public class VisitTranslatorImpl extends BaseEncounterTranslator implements Enco
 		encounter.setClass_(mapLocationToClass(visit.getLocation()));
 		
 		encounter.setPeriod(visitPeriodTranslator.toFhirResource(visit));
+		encounter.getMeta().setSecurity(VisitMetaSecurityTranslator.toFhirResource(visit).getSecurity());
 		
 		encounter.getMeta().addTag(FhirConstants.OPENMRS_FHIR_EXT_ENCOUNTER_TAG, "visit", "Visit");
 		encounter.getMeta().setLastUpdated(getLastUpdated(visit));
@@ -99,6 +105,7 @@ public class VisitTranslatorImpl extends BaseEncounterTranslator implements Enco
 		
 		existingVisit.setPatient(patientReferenceTranslator.toOpenmrsType(encounter.getSubject()));
 		existingVisit.setLocation(encounterLocationTranslator.toOpenmrsType(encounter.getLocationFirstRep()));
+		VisitMetaSecurityTranslator.toOpenmrsType(existingVisit, encounter.getMeta().getSecurity());
 		
 		return existingVisit;
 	}
